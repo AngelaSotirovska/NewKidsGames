@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="my.minigames.newkidsgames">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/Theme.MyApplication.Fullscreen">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7352895180253853~8870354248"/>
+        <activity
+            android:name="my.minigames.newkidsgames.TermsActivity"
+            android:parentActivityName="my.minigames.newkidsgames.MainActivity" />
+        <activity
+            android:name="my.minigames.newkidsgames.PolicyActivity"
+            android:parentActivityName="my.minigames.newkidsgames.MainActivity" />
+        <activity
+            android:name="my.minigames.newkidsgames.ShootingGames"
+            android:parentActivityName="my.minigames.newkidsgames.MainActivity" />
+        <activity
+            android:name="my.minigames.newkidsgames.RacingGames"
+            android:parentActivityName="my.minigames.newkidsgames.MainActivity" />
+        <activity
+            android:name="my.minigames.newkidsgames.AnimalGames"
+            android:parentActivityName="my.minigames.newkidsgames.MainActivity" />
+        <activity
+            android:name="my.minigames.newkidsgames.PuzzleGames"
+            android:parentActivityName="my.minigames.newkidsgames.MainActivity" />
+        <activity
+            android:name="my.minigames.newkidsgames.KidsGames"
+            android:parentActivityName="my.minigames.newkidsgames.MainActivity" />
+        <activity
+            android:name="my.minigames.newkidsgames.SecondActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="New Kids Games"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
+            android:name="my.minigames.newkidsgames.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.MyApplication.NoActionBar" />
+        <activity
+            android:name="my.minigames.newkidsgames.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="New Kids Games"
+            android:theme="@style/Theme.MyApplication.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

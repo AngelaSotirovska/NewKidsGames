@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Categories">
+        <menu>
+            <item
+                android:id="@+id/nav_kids"
+                android:icon="@drawable/ic_joystick"
+                android:title="@string/menu_gallery" />
+            <item
+                android:id="@+id/nav_puzzle"
+                android:icon="@drawable/ic_icons8_puzzle"
+                android:title="Puzzle Games" />
+            <item
+                android:id="@+id/nav_animal"
+                android:icon="@drawable/ic_animal_paw_print"
+                android:title="Animal Games"/>
+            <item
+                android:id="@+id/nav_racing"
+                android:icon="@drawable/ic_car"
+                android:title="Racing Games"/>
+            <item
+                android:id="@+id/nav_shooting"
+                android:icon="@drawable/ic_target"
+                android:title="Shooting Games"/>
+        </menu>
+    </item>
+
+    <item android:title="Social media">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_fb"
+                android:title="Facebook page"/>
+        </menu>
+    </item>
+
+</menu>

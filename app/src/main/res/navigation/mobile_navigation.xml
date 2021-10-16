@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="my.minigames.newkidsgames.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/nav_kids"
+        android:name="my.minigames.newkidsgames.KidsGames"
+        tools:layout="@layout/activity_kids_games"
+        />
+
+    <activity
+        android:id="@+id/nav_puzzle"
+        android:name="my.minigames.newkidsgames.PuzzleGames"
+        tools:layout="@layout/activity_puzzle_games" />
+
+    <activity
+        android:id="@+id/nav_animal"
+        android:name="my.minigames.newkidsgames.AnimalGames"
+        tools:layout="@layout/activity_animal_games"/>
+
+    <activity
+        android:id="@+id/nav_racing"
+        android:name="my.minigames.newkidsgames.RacingGames"
+        tools:layout="@layout/activity_racing_games"/>
+
+    <activity
+        android:id="@+id/nav_shooting"
+        android:name="my.minigames.newkidsgames.ShootingGames"
+        tools:layout="@layout/activity_shooting_games"/>
+</navigation>
